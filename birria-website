@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birrieria Estilo Jalisco</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #faf7f2;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,0.6);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Section styling */
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #8b0000;
+}
+
+/* Menu cards */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+/* Info section */
+.info {
+    background: #fff3e6;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background: #8b0000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    background: #8b0000;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #a30000;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Birrieria Estilo Jalisco</h1>
+    <p>Authentic Jalisco-style birria, handmade tortillas, and fresh Mexican favorites served daily</p>
+    <p><strong>Family Owned Since 2016</strong></p>
+</header>
+
+<section class="info">
+    <h2>📍 Visit Us</h2>
+    <p><strong>Address:</strong> 13327 Nacogdoches Rd, San Antonio, TX 78217</p>
+    <p><strong>Phone:</strong> (210) 529-2491</p>
+    <p><strong>Hours:</strong><br>
+    Tuesday – Sunday: 8:00 AM – 3:00 PM<br>
+    Closed Monday</p>
+</section>
+
+<section>
+    <h2>🔥 Signature Favorites</h2>
+    <div class="menu-grid">
+        <div class="card">
+            <h3>Quesabirria Tacos</h3>
+            <p>Crispy tacos with slow-cooked birria, melted cheese, cilantro, onion & rich consommé.</p>
+        </div>
+        <div class="card">
+            <h3>Birria Ramen</h3>
+            <p>Tender birria with ramen noodles, fresh toppings & hot consommé.</p>
+        </div>
+        <div class="card">
+            <h3>Birria Quesadilla</h3>
+            <p>Handmade tortilla stuffed with birria & cheese, grilled fresh.</p>
+        </div>
+        <div class="card">
+            <h3>3 Taco Combo</h3>
+            <p>Three birria tacos served with consommé and your choice of sides.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>🍳 Breakfast</h2>
+    <div class="menu-grid">
+        <div class="card">Potato & Egg</div>
+        <div class="card">Chorizo & Egg</div>
+        <div class="card">Bacon & Egg</div>
+        <div class="card">Ham & Egg</div>
+        <div class="card">Migas & Egg</div>
+        <div class="card">Bean & Cheese</div>
+        <div class="card">Bean & Tocino</div>
+        <div class="card">Nopal & Egg</div>
+    </div>
+</section>
+
+<section>
+    <h2>🍽️ Lunch Specials</h2>
+    <div class="menu-grid">
+        <div class="card">Enchiladas</div>
+        <div class="card">Flautas</div>
+        <div class="card">Carne Guisada</div>
+        <div class="card">Chicken Plate</div>
+        <div class="card">Barbacoa Plate</div>
+        <div class="card">Mexican Plate</div>
+    </div>
+</section>
+
+<section>
+    <h2>🥑 Sides</h2>
+    <div class="menu-grid">
+        <div class="card">Handmade Tortillas</div>
+        <div class="card">Rice</div>
+        <div class="card">Beans</div>
+        <div class="card">Guacamole</div>
+        <div class="card">Avocado</div>
+        <div class="card">Cheese Dip</div>
+    </div>
+</section>
+
+<section>
+    <h2>🍰 Desserts & Drinks</h2>
+    <div class="menu-grid">
+        <div class="card">Cheesecake</div>
+        <div class="card">Flan</div>
+        <div class="card">Churros</div>
+        <div class="card">Mexican Coke</div>
+        <div class="card">Horchata</div>
+        <div class="card">Jamaica</div>
+        <div class="card">Coffee</div>
+    </div>
+</section>
+
+<section class="info">
+    <h2>🎉 Catering Available</h2>
+    <p>Planning a party, family gathering, or event?</p>
+    <p>We offer catering with fresh birria, tacos, plates, and more.</p>
+    <button onclick="window.location.href='tel:2105292491'">Call for Catering</button>
+</section>
+
+<footer>
+    <p>© 2026 Birrieria Estilo Jalisco | Follow us for specials & updates</p>
+</footer>
+
+</body>
+</html>
